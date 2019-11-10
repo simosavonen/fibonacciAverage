@@ -7,10 +7,10 @@ import java.math.RoundingMode;
 public class Main {
 
     public static void main(String[] args) {
-	    FibonacciAverage fa = new FibonacciAverage();
-	    System.out.println("fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, 21, ...");
+        FibonacciAverage fa = new FibonacciAverage();
+        System.out.println("fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, 21, ...");
         System.out.println("n = 2, (1+1) / 2 = " + fa.fibonacciAverage(2));
-	    System.out.println("n = 3, (1+1+2) / 3 = " + fa.fibonacciAverage(3));
+        System.out.println("n = 3, (1+1+2) / 3 = " + fa.fibonacciAverage(3));
         System.out.println("n = 4, (1+1+2+3) / 4 = " + fa.fibonacciAverage(4));
         System.out.println("n = 5, (1+1+2+3+5) / 5 = " + fa.fibonacciAverage(5));
         System.out.println("n = 6, (1+1+2+3+5+8) / 6 = " + fa.fibonacciAverage(6));
